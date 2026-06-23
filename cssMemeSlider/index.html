@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Meme Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="slider-container">
+        <input type="radio" name="meme-slider" id="slide-1" class="slider-input input-1" checked>
+        <input type="radio" name="meme-slider" id="slide-2" class="slider-input input-2">
+        <input type="radio" name="meme-slider" id="slide-3" class="slider-input input-3">
+        <input type="radio" name="meme-slider" id="slide-4" class="slider-input input-4">
+
+        <div class="slider-content">
+            
+            <div class="slides-window">
+                <div class="slides-tape">
+                    <div class="slide">
+                        <img src="assets/meme1.jpg" alt="Meme 1" class="meme-img">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/meme2.jpg" alt="Meme 2" class="meme-img">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/meme3.jpg" alt="Meme 3" class="meme-img">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/meme4.jpg" alt="Meme 4" class="meme-img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-footer">
+                
+                <div class="captions-window">
+                    <div class="captions-tape">
+                        <p class="caption-text">Когда код заработал с первого раза без гугла</p>
+                        <p class="caption-text">Когда у меня что-то не получилось с первого раза</p>
+                        <p class="caption-text">Открыл таск</p>
+                        <p class="caption-text">Каждая попытка что-то сделать</p>
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <label for="slide-1" class="control-btn btn-1"><span class="visual-dot"></span></label>
+                    <label for="slide-2" class="control-btn btn-2"><span class="visual-dot"></span></label>
+                    <label for="slide-3" class="control-btn btn-3"><span class="visual-dot"></span></label>
+                    <label for="slide-4" class="control-btn btn-4"><span class="visual-dot"></span></label>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>
